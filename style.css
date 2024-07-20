@@ -1,0 +1,113 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    background-color: rgb(197, 193, 189);
+    margin-top: 30px;
+
+
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 70px;
+    gap: 10px;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    background-color: rgb(125, 133, 168);
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.clic {
+    position: absolute;
+    top: 10px;
+}
+
+
+#output {
+    height: 70px;
+    width: 120px;
+    /* background-color: black; */
+    color: rgb(7, 8, 8);
+    position: absolute;
+    left: 180px;
+
+}
+
+.player1 {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    color: black;
+}
+
+.comp {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    color: black;
+
+}
+
+#btn1 {
+    height: 60px;
+    width: 90px;
+    background-image: url("../rock2.jpg");
+    background-size: cover;
+}
+
+#btn2 {
+    height: 60px;
+    width: 90px;
+    background-image: url("../paper.jpg");
+    background-size: cover;
+}
+
+#btn3 {
+    height: 60px;
+    width: 90px;
+    background-image: url("../scissor.jpg.jpg");
+    background-size: cover;
+}
+
+.hand-left {
+    height: 90px;
+    width: 100px;
+    /* background-color: rgb(140, 202, 23); */
+    position: absolute;
+    background-image: url("../left2.jpg");
+    background-size: cover;
+    left: 10px;
+    top: 150px;
+}
+.hand-right {
+    height: 100px;
+    width: 150px;
+    /* background-color: rgb(140, 202, 23); */
+    position: absolute;
+    background-image: url("../right2.jpg");
+    background-size: cover;
+    right: 10px;
+    top: 150px;
+}
